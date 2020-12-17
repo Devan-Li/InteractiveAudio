@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Play Music Fun</title>
+
 </head>
+
 <body>
-    
+    <!-- -----music-page----- -->
+    <div class="music-page">
+        <!-- ---main--- -->
+        <div class="main">
+            <!-- ---left-box--- -->
+            <div class="left-box">
+                <img src="./images/img01.jpg" alt="">
+            </div>
+            <!-- ---left-box--- -->
+            <div class="right-box">
+                <h2 class="song-name"></h2>
+                <span class="singer"></span>
+                <div class="lyric"></div>
+            </div>
+        </div>
+        <!-- ------------------------------footer------------------------------ -->
+        <div class="footer">
+            <div class="main">
+                <!-- ----------left-content---------- -->
+                <div class="left left-section">
+                    <span class="iconfont last icon-fast-backward" title="Previous"></span>
+                    <span class="iconfont play icon-pause" title="Play"></span>
+                    <span class="iconfont next icon-fast-forward" title="Next"></span>
+                </div>
+                <!-- ----------middle-content---------- -->
+                <div class="content clearfix">
+                    <!-- -small-img-box- -->
+                    <a class="left"><img src="./images/img01.jpg"></a>
+                    <div class="content-box">
+                        <!-- -song-name- -->
+                        <span class="song-name left"></span>
+                        <span class="left">&nbsp;-&nbsp;</span>
+                        <!-- -singer-name- -->
+                        <span class="singer left"></span>
+                        <!-- -time-recording- -->
+                        <span class="right">
+                            <span class="real-time">00:00</span>
+                            <span class="total-time"></span>
+                        </span><br>
+                        <!-- -processing-strip- -->
+                        <div class="strip">
+                            <div class="progress"></div>
+                            <span class="spot"></span>
+                        </div>
+                    </div>
+                    <!-- ---volume-box--- -->
+                    <div class="volume-box">
+                        <div class="groove">
+                            <div class="volume"></div>
+                            <span class="volume-spot"></span>
+                        </div>
+                        <div class="triangle"></div>
+                    </div>&nbsp;
+                    <span class="iconfont icon-sound"></span>
+                </div>
+                <!-- ----------right-content---------- -->
+                <div class="right right-section">
+                    <!-- -playlist- -->
+                    <div class="list" style="display: none;">
+                        <div class="song"></div>
+                    </div>
+                    <div class="list-triangle" style="display: none;"></div>
+                    <!-- -more- -->
+                    <div class="more-box" style="display: none;">
+                        <!-- -share- -->
+                        <span class="iconfont project icon-share" title="Share"></span>
+                        <div class="box-triangle" style="display: none;"></div>
+                    </div>
+                     <!-- -cycle- -->
+                    <span class="iconfont loop icon-cycle" title="Cycle"></span>&nbsp;&nbsp;&nbsp;
+                    <!-- -love this song- -->
+                    <span class="iconfont love icon-love" title="Love"></span>&nbsp;&nbsp;&nbsp;
+                    <!-- -playlist- -->
+                    <span class="iconfont icon-order order" title="List"
+                        style="font-size: 26px;"></span>&nbsp;&nbsp;&nbsp;
+                        <!-- -more- -->
+                    <span class="iconfont icon-set more" title="More" style="font-size: 26px;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 </body>
+
 </html>
